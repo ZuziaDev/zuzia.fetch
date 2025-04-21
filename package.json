@@ -1,5 +1,5 @@
 {
-    "name": "@zuzia/fetch",
+    "name": "@zuziadev/fetch",
     "version": "1.0.0",
     "description": "@zuzia.dev/zuzia.fetch is a Promise‑based HTTP client that automatically builds request URLs, applies default headers and timeouts, and exposes request/response interceptors for flexible customization. Its modular plugin system and structured error‑handling layer ensure clean, scalable integration in both CommonJS and ESM environments.",
     "main": "dist/index.js",
@@ -16,7 +16,7 @@
         "axios",
         "promise"
     ],
-    "author": "zuzia.dev",
+    "author": "zuziadev",
     "repository": {
         "type": "git",
         "url": "https://github.com/ZuziaDev/@zuzia.dev/zuzia.fetch"

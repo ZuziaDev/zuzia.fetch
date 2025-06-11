@@ -1,32 +1,35 @@
 {
-    "name": "@zuziadev/fetch",
-    "version": "1.0.0",
-    "description": "@zuzia.dev/zuzia.fetch is a Promise‑based HTTP client that automatically builds request URLs, applies default headers and timeouts, and exposes request/response interceptors for flexible customization. Its modular plugin system and structured error‑handling layer ensure clean, scalable integration in both CommonJS and ESM environments.",
-    "main": "dist/index.js",
-    "module": "dist/index.mjs",
-    "type": "module",
-    "scripts": {
-        "test": "node test.js",
-        "build": "echo \"Build script would go here\" && exit 0"
-    },
-    "keywords": [
-        "http",
-        "fetch",
-        "request",
-        "axios",
-        "promise"
-    ],
-    "author": "zuziadev",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ZuziaDev/@zuzia.dev/zuzia.fetch"
-    },
-    "license": "MIT",
-    "engines": {
-        "node": ">=19.0.0"
-    },
-    "dependencies": {
-        "@zuzia.dev/zuzia.fetch": "file:",
-        "zuzia.fetch": "file:"
-    }
+  "name": "@zuziadev/fetch",
+  "version": "2.1.4",
+  "type": "module",
+  "description": "A modern HTTP client for JavaScript and TypeScript. Provides a simple and powerful API with advanced features.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "client",
+    "fetch",
+    "request",
+    "rest",
+    "api",
+    "zuzia",
+    "zuzia-fetch",
+    "http-client",
+    "axios"
+  ],
+  "author": "zuziadev",
+  "license": "MIT",
+  "dependencies": {
+    "https-proxy-agent": "^7.0.2"
+  },
+  "homepage": "https://fetch.zuzia.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZuziaDev/zuzia.fetch"
+  },
+  "bugs": {
+    "url": "https://github.com/ZuziaDev/zuzia.fetch/issues"
+  }
 }

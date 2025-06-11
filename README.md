@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ZuziaDev/@ZuziaDev/Fetch/HEAD/assets/zuzia-fetch-logo.png" alt="@ZuziaDev/Fetch Logo" width="9900" />
+  <img src="https://github.com/ZuziaDev/zuzia.fetch/blob/main/assets/zuzia-fetch-logo.png?raw=true" alt="@ZuziaDev/Fetch Logo" width="9900" />
 </p>
 
 

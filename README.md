@@ -83,9 +83,8 @@ client.get('/users')
 
 @ZuziaDev/Fetch provides a similar API with enhanced features.
 
-| Axios | @ZuziaDev/Fetch |
-|-------|-------------|
-| ```javascript
+**Axios**
+ ```javascript
 import axios from 'axios';
 
 const api = axios.create({
@@ -98,7 +97,12 @@ api.interceptors.request.use(config => {
   return config;
 });
 
-const response = await api.get('/users');```| ```javascript import { ZuziaFetch } from 'zuzia-fetch';
+const response = await api.get('/users');
+```
+
+**@ZuziaDev/Fetch**
+```javascript
+import { ZuziaFetch } from '@zuziadev/fetch';
 
 const api = new ZuziaFetch({
   baseURL: 'https://api.example.com',
@@ -110,7 +114,8 @@ api.interceptors.request.use(config => {
   return config;
 });
 
-const response = await api.get('/users');```|
+const response = await api.get('/users');
+```
 ---
 
 ## Core Features
